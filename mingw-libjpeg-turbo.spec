@@ -6,7 +6,7 @@
 
 Name:           mingw-libjpeg-turbo
 Version:        1.5.1
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        MinGW Windows Libjpeg-turbo library
 
 License:        wxWidgets
@@ -151,6 +151,9 @@ chmod -x README.md
 
 
 %changelog
+* Thu Feb 02 2017 Jajauma's Packages <jajauma@yandex.ru> - 1.5.1-2
+- Rebuild with GCC 5.4.0
+
 * Thu Oct 13 2016 Kalev Lember <klember@redhat.com> - 1.5.1-1
 - Update to 1.5.1
 
